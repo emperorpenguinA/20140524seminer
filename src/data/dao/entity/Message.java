@@ -6,6 +6,7 @@ public class Message {
 
     private Integer messageId;
     private Integer userId;
+    private User user;
     private String content;
     private Timestamp insertTime;
     private Timestamp updateTime;
@@ -24,6 +25,14 @@ public class Message {
 
     public void setUserId(Integer userId) {
         this.userId = userId;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 
     public String getContent() {

@@ -19,4 +19,14 @@
     <servlet-name>LoginServlet</servlet-name>
     <url-pattern>/LoginServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>MyPageServlet</display-name>
+    <servlet-name>MyPageServlet</servlet-name>
+    <servlet-class>data.servlet.MyPageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyPageServlet</servlet-name>
+    <url-pattern>/MyPageServlet</url-pattern>
+  </servlet-mapping>
 </web-app>

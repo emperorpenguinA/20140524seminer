@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+.area {width: 1500px; margin: auto;}
+.userArea { float: left; width: 500px;}
+.welcome {border: 1px solid #000000; padding: 10px; text-align: center; margin: 10px;}
+.profileArea {border: 1px solid #000000; padding: 10px; text-align: center; margin: 10px;}
+.profileArea table {margin: auto; }
+.messageArea {width: 1000px; float: right;}
+.insertArea {border: 1px solid #000000; padding: 10px; text-align: left; margin: 10px;}
+textarea.insert {width: 800px; margin-bottom: 10px; }
+.listArea {border: 1px solid #000000; padding: 10px; text-align: center; margin: 10px;}
+.profileArea table {margin: auto; }

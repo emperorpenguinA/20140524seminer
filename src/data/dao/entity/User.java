@@ -9,7 +9,7 @@ public class User {
     private String account;
     private String name;
     private Integer age;
-    private String genger;
+    private String gender;
     private String hometown;
     private Timestamp insertTime;
     private Timestamp updateTime;
@@ -54,12 +54,12 @@ public class User {
         this.age = age;
     }
 
-    public String getGenger() {
-        return genger;
+    public String getGender() {
+        return gender;
     }
 
-    public void setGenger(String genger) {
-        this.genger = genger;
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 
     public String getHometown() {

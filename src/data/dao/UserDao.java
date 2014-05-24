@@ -32,7 +32,7 @@ public class UserDao extends AbstractBaseDAO {
                 user.setAccount(rs.getString("account"));
                 user.setName(rs.getString("name"));
                 user.setAge(rs.getInt("age"));
-                user.setGenger(rs.getString("gender"));
+                user.setGender(rs.getString("gender"));
                 user.setHometown(rs.getString("hometown"));
                 user.setInsertTime(rs.getTimestamp("insertTime"));
                 user.setUpdateTime(rs.getTimestamp("updateTime"));
@@ -68,7 +68,7 @@ public class UserDao extends AbstractBaseDAO {
                 user.setAccount(rs.getString("account"));
                 user.setName(rs.getString("name"));
                 user.setAge(rs.getInt("age"));
-                user.setGenger(rs.getString("gender"));
+                user.setGender(rs.getString("gender"));
                 user.setHometown(rs.getString("hometown"));
                 user.setInsertTime(rs.getTimestamp("insertTime"));
                 user.setUpdateTime(rs.getTimestamp("updateTime"));

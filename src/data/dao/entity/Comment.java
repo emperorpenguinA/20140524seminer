@@ -2,11 +2,11 @@ package data.dao.entity;
 
 import java.sql.Timestamp;
 
-
 public class Comment {
     private Integer commentId;
     private Integer messageId;
     private Integer userId;
+    private User user;
     private String content;
     private Timestamp insertTime;
     private Timestamp updateTime;
@@ -33,6 +33,14 @@ public class Comment {
 
     public void setUserId(Integer userId) {
         this.userId = userId;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 
     public String getContent() {
