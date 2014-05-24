@@ -24,4 +24,10 @@ emperorpenguinAのマイページで共有のリポジトリを押す
 eclipseでインポート
 
 
+●データベース
+
+データベース：seminer作成
+スキーマ：test作成
+テーブル作成
+
 
